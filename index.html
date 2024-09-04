@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- BOXICONS -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
+        <!-- PHOTO ANIMATION -->
+        <script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script> 
+
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+        <!-- CSS -->
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <!-- Favicon and icons -->
+        <link rel="apple-touch-icon" sizes="180x180" href="assets/img/favicon/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon/favicon-16x16.png">
+        <link rel="manifest" href="assets/img/favicon/site.webmanifest">
+        
+        <title>Chris.Dev Portfolio</title>
+
+
+    </head>
+    <body>
+        
+        <!-- PRELOADER -->
+        <div id="preloader">
+            <div class="spinner"></div>
+        </div>
+
+
+        <!-- HEADER -->
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="#home" class="nav__logo"><img src="assets/img/chrisDev-logo.png" alt="" class="nav__img-logo"></a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link active-link">
+                                <i class='bx bx-home-alt nav__icon'></i>
+                                <span class="nav__name">Home</span>
+                            </a>
+                        </li>
+                        
+                        <li class="nav__item">
+                            <a href="#about" class="nav__link">
+                                <i class='bx bx-user nav__icon'></i>
+                                <span class="nav__name">About</span>
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#services" class="nav__link">
+                                <i class='bx bx-book-alt nav__icon'></i>
+                                <span class="nav__name">Services</span>
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#portfolio" class="nav__link">
+                                <i class='bx bx-briefcase-alt nav__icon'></i>
+                                <span class="nav__name">Portfolio</span>
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#contactme" class="nav__link btn-contactTop">
+                                <i class='bx bx-message-square-detail nav__icon'></i>
+                                <span class="nav__name">Contact me</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <a href="#home"><img src="assets/img/chrisDev-img.png" alt="" class="nav__img"></a>
+            </nav>
+        </header>
+
+        <main>
+
+            <!-- HOME -->
+            <section class="container-home" id="home" data-aos="fade-in" data-aos-duration="3500">
+
+                <div class="container-home" style="overflow-x: hidden">
+                    <div class="profile-image-box" data-aos="fade-left" data-aos-duration="3000" data-aos-delay="70">
+                        <div class="profile-image">
+                            <img src="assets/img/chrisDev-img.png" alt="Patrick Moz">
+                            <span class="circle-spin"></span>
+                        </div>
+                    </div>
+            
+                    <div class="header-home" data-aos="fade-right" data-aos-duration="3000" data-aos-delay="70">
+                        <h2>Hello, I'm</h2>
+                        <h1><span class="highlight">Christian Okafor</span></h1>
+                        <div class="text-animate-box">
+                        <h2 class="text-animate">Full Stack Web Developer</h2>
+                        </div>
+                        <p>With knowledge in web development and design, I offer the best projects resulting in quality work.</p>
+                        <div class="main-btn">
+                            <a href="#contactme" class="btn">Let's Talk</a>
+                            <a href="#portfolio" class="btn btn2">Projects</a>
+                        </div>
+                        <div class="social-media-icons">
+                            <a href="https://web.facebook.com/profile.php?id=61557113816340" target="_blank"><i class='bx bxl-facebook' ></i></a>
+                            <a href="https://twitter.com/chrisDev99" target="_blank"><i class='bx bxl-twitter' ></i></a>
+                            <a href="https://www.linkedin.com/in/christian-okafor-6176ab228?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3Bv%2B5Vg93SRcGyDjYguIoXwg%3D%3D" target="_blank"><i class='bx bxl-linkedin' ></i></a>
+                            <a href="https://github.com/chris321-dev" target="_blank"><i class='bx bxl-github' ></i></a>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+
+
+            <!-- INTRO -->
+            <section class="container about-section" id="about" data-aos="fade-in" data-aos-duration="6000">
+
+                <div >
+                    <h2 class="sub-title"><span class="title-color-span">My </span>Intro</h2>
+                </div>
+                    <div class="container-about">
+                        <div class="about-image" data-aos="slide-down" data-aos-duration="1500">
+                             
+                            <dotlottie-player src="https://lottie.host/e556bf98-306a-4033-a549-96fdc5d3aa22/T40yp68Mws.json" background="transparent" speed="1" style="width: 350px; height: 350px;" loop autoplay class="imgAnimate"></dotlottie-player>
+                        </div>
+                        <div class="about-text" data-aos="slide-up" data-aos-duration="1500">
+                            <h1 class="title">About Me</h1>
+
+                            <p>
+                                <b>As a dedicated Full Stack Web Developer</b>, I offer a wealth of skills in 
+                                <b>Responsive Frontend and Backend Development</b>, <b>project management</b>, 
+                                and <b>Agile methodology</b>. From <b>developing and testing websites</b> to 
+                                <b>troubleshooting</b> and <b>implementing features</b>, I ensure<span id="dots"></span><span id="more">
+                                <b>high-quality solutions</b> with a strong focus on 
+                                <b>Cross Browser Compatibility</b> and <b>optimization</b>. Quick to 
+                                <b>adapt to new technologies</b>, I enhance <b>performance</b> and 
+                                <b>meet deadlines</b>. Whether for your <b>organization</b> or 
+                                <b>specific projects</b>, I'm committed to making a 
+                                <b>meaningful impact</b>.
+                                </span><a href="javascript:void(0);" onclick="toggleReadMore()" id="readMoreBtn"> ..read more</a>       
+                              </p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- SKILLS -->
+                <div class="container skills-section skills-target" data-aos="slide-up" data-aos-duration="1500">
+                    
+                    <div>
+                        <h2 class="sub-title"><span class="title-color-span">My </span>Tech Skills</h2>
+                    </div>
+
+                    <div class="skills-container">
+                        <div class="skill-box">
+                            <img src="assets/img/skills/html.png" alt="HTML Icon" class="skill-icon">
+                            <div class="skill-name">HTML</div>
+                        </div>
+                        <div class="skill-box">
+                            <img src="assets/img/skills/css-3.png" alt="CSS Icon" class="skill-icon">
+                            <div class="skill-name">CSS</div>
+                        </div>
+                        <div class="skill-box">
+                            <img src="assets/img/skills/js.png" alt="JS icon" class="skill-icon">
+                            <div class="skill-name">JavaScript</div>
+                        </div>
+                        <div class="skill-box">
+                            <img src="assets/img/skills/node.png" alt="Node.js Icon" class="skill-icon">
+                            <div class="skill-name">Node.js</div>
+                        </div>
+                        <div class="skill-box">
+                            <img src="assets/img/skills/react.png" alt="React Icon" class="skill-icon">
+                            <div class="skill-name">React</div>
+                        </div>
+                        <div class="skill-box">
+                            <img src="assets/img/skills/next.png" alt="Next.js Icon" class="skill-icon">
+                            <div class="skill-name">Next.js</div>
+                        </div>
+                        <div class="skill-box">
+                            <img src="assets/img/skills/tailwind.png" alt="Tailwind Icon" class="skill-icon">
+                            <div class="skill-name">Tailwind CSS</div>
+                        </div>
+                        <div class="skill-box">
+                            <img src="assets/img/skills/mongodb.png" alt="MongoDB Icon" class="skill-icon">
+                            <div class="skill-name">MongoDB</div>
+                        </div>
+                        <div class="skill-box">
+                            <img src="assets/img/skills/mysql.png" alt="MySQL Icon" class="skill-icon">
+                            <div class="skill-name">MySQL</div>
+                        </div>
+                        <div class="skill-box">
+                            <img src="assets/img/skills/typescript.png" alt="TypeScript Icon" class="skill-icon">
+                            <div class="skill-name">TypeScript</div>
+                        </div>
+                        <div class="skill-box">
+                            <img src="assets/img/skills/bootstrap.png" alt="Bootstrap Icon" class="skill-icon">
+                            <div class="skill-name">Bootstrap</div>
+                        </div>
+                        <div class="skill-box">
+                            <img src="assets/img/skills/figma.png" alt="Figma Icon" class="skill-icon">
+                            <div class="skill-name">Figma</div>
+                        </div>
+                        <div class="skill-box">
+                            <img src="assets/img/skills/git.png" alt="Git & GitHub Icon" class="skill-icon">
+                            <div class="skill-name">Git & GitHub</div>
+                        </div>
+                        <div class="skill-box">
+                            <img src="assets/img/skills/python.png" alt="Python Icon" class="skill-icon">
+                            <div class="skill-name">Python</div>
+                        </div>
+                        <div class="skill-box">
+                            <img src="assets/img/skills/photoshop.png" alt="Photoshop Icon" class="skill-icon">
+                            <div class="skill-name">Photoshop</div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+            <!-- SERVICES -->
+            <section class="container section services-section" id="services" data-aos="fade-in" data-aos-duration="6000">
+                <div>
+                    <h2 class="sub-title"><span class="title-color-span">My </span>Services</h2>
+                </div>
+                    <h1 class="title">What I Do</h1>
+                    <div class="services-container" >
+                        <div class="service-box">
+                            <img src="assets/img/web-design.png" alt="web design Icon" class="service-icon">
+                            <h3>Web Development & Design</h3>
+                            <p>Building responsive, visually appealing websites with clean code and modern design. Ensuring a seamless user experience across all devices.</p>
+                        </div>
+                        <div class="service-box">
+                            <img src="assets/img/data.png" alt="web development Icon" class="service-icon">
+                            <h3>Full-Stack Development</h3>
+                            <p>Providing end-to-end development, from frontend design to backend functionality. Crafting complete, scalable web applications tailored to your needs.</p>
+                        </div>
+                        <div class="service-box">
+                            <img src="assets/img/online-store.png" alt="oline-store Icon" class="service-icon">
+                            <h3>E-Commerce Solutions</h3>
+                            <p>Creating customized e-commerce platforms that are secure, user-friendly, and optimized for sales. Streamlining the online shopping experience from start to finish.</p>
+                        </div>
+                        <div class="service-box">
+                            <img src="assets/img/coding.png" alt="web maintenance Icon" class="service-icon">
+                            <h3>Website Maintenance & Optimization</h3>
+                            <p>Offering ongoing support and maintenance to keep your website up-to-date, fast, and secure. Ensuring optimal performance and reliability.</p>
+                        </div>
+                        <div class="service-box">
+                            <img src="assets/img/seo.png" alt="SEO Icon" class="service-icon">
+                            <h3>SEO & Digital Marketing Integration</h3>
+                            <p>Implementing SEO strategies to boost your website's visibility and ranking. Integrating digital marketing efforts to drive traffic and engagement.</p>
+                        </div>
+                        <div class="service-box">
+                            <img src="assets/img/secure-data.png" alt="web security Icon" class="service-icon">
+                            <h3>Website Performance & Security</h3>
+                            <!-- <p>Creating engaging and relevant content to attract and retain a clearly defined audience.</p> -->
+                             <!-- <p>Enhancing site speed and safeguarding user data with robust security measures.</p> -->
+                            <p>Optimizing website speed, implementing robust security measures to protect user information and enhance the overall user experience.</p>
+                        </div>
+                    </div>
+                
+            </section>
+
+            
+            <!-- PORTFOLIO -->
+            <section class="container section portfolio-section" id="portfolio" data-aos="fade-in" data-aos-duration="6000">
+                <div>
+                    <h2 class="sub-title"><span class ="title-color-span">My </span>Portfolio</h2>
+                </div>
+                    <h1 class="title">Portfolio</h1>
+                    <div class="portfolio-container" style="overflow: hidden;">
+                        <div class="portfolio-box" data-aos="slide-right" data-aos-duration="1500">
+                            <img src="assets/img/perfil.png" alt="Portfolio 1" class="portfolio-image">
+                            <h3 class="portfolio-title">Website Development For Dark X</h3>
+                            <p class="portfolio-category">Next Js, css, redox</p>
+                            <a href="#" target="_blank" class="portfolio-link">view</a>
+                        </div>
+                        <div class="portfolio-box" data-aos="slide-down" data-aos-duration="1500">
+                            <img src="assets/img/perfil.png" alt="Portfolio 2" class="portfolio-image">
+                            <h3 class="portfolio-title">Website Development For Dark X</h3>
+                            <p class="portfolio-category">Next Js, css, redox</p>
+                            <a href="#" target="_blank" class="portfolio-link">view</a>
+                        </div>
+                        <div class="portfolio-box" data-aos="slide-left" data-aos-duration="1500">
+                            <img src="assets/img/temp5.webp" alt="Portfolio 3" class="portfolio-image">
+                            <h3 class="portfolio-title">Clinic Website</h3>
+                            <p class="portfolio-category">HTML, CSS, JavaScript</p>
+                            <a href="https://chris321-dev.github.io/Clinic-Website/" target="_blank" class="portfolio-link">view</a>
+                        </div>
+                        <div class="portfolio-box"data-aos="slide-right" data-aos-duration="1500">
+                            <img src="assets/img/chris321-dev-github-io-Weather-App.webp" alt="Portfolio 4" class="portfolio-image">
+                            <h3 class="portfolio-title">Weather Website</h3>
+                            <p class="portfolio-category">HTML, CSS, React.js</p>
+                            <a href="https://chris321-dev.github.io/Weather-App/" target="_blank" class="portfolio-link">view</a>
+                        </div>
+                        <div class="portfolio-box" data-aos="slide-up" data-aos-duration="1500">
+                            <img src="assets/img/chris321-dev-github-io-Quiz-App-1.webp" alt="Portfolio 5" class="portfolio-image">
+                            <h3 class="portfolio-title">Fun Quiz Website</h3>
+                            <p class="portfolio-category">HTML, CSS, React.js, Redux</p>
+                            <a href="https://chris321-dev.github.io/Quiz-App/" target="_blank" class="portfolio-link">view</a>
+                        </div>
+                        <div class="portfolio-box" data-aos="slide-left" data-aos-duration="1500">
+                            <img src="assets/img/perfil.png" alt="Portfolio 6" class="portfolio-image">
+                            <h3 class="portfolio-title">Website Development For Dark X</h3>
+                            <p class="portfolio-category">html, css, javascript
+                            <a href="#" target="_blank" class="portfolio-link">view</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+            <!-- CONTACT -->
+            <section class="container section contact-section" id="contactme" data-aos="fade-in" data-aos-duration="6000">
+                <div>
+                    <h2 class="sub-title"><span class ="title-color-span">My </span>Contact</h2>
+                </div>
+                <div class="contact-container">              
+                        <div class="contact-form">
+                            <p class="contact-title-top">Let's work together</p>
+                            <p class="contact-description">Got a project in mind or just want to say hello? I'm open to new opportunities. Let's build something great together!</p>
+            
+                            <form id="contact-form">
+                                <div class="form-group">
+                                    <input type="text" id="name" placeholder="Name" required>
+                                    <input type="email" id="email" placeholder="Email Address" required>
+                                </div>
+                                <div class="form-group">
+                                    <input type="tel" id="phone" placeholder="Phone Number" pattern="[0-9+\-\(\)\s]*" title="Only numbers and symbols (+, -, (, ), and spaces) are allowed">
+                                    <input type="text" id="subject" placeholder="Email Subject">
+                                </div>
+                                <div class="form-group">
+                                    <textarea id="message" placeholder="Type your message here." required></textarea>
+                                </div>
+                                <button type="submit" class="btn-submit btn btn2">Send message</button>
+                            </form>
+                        </div>
+            
+            
+                        <div class="contact-info">
+                            <div class="contact-item">
+                                <i class='bx bxs-phone'></i>
+                                <div>
+                                    <p class="contact-title">Phone:</p>
+                                    <p class="contact-details"><a href="tel:+2347016341307">+234-701-634-1307</a></p>
+                                </div>
+                            </div>
+                            <div class="contact-item">
+                                 <i class='bx bxs-envelope' ></i>
+                                <div>
+                                    <p class="contact-title">Email:</p>
+                                    <p class="contact-details"><a href="mailto:christianokafor.dev@gmail.com">christianokafor.dev@gmail.com</a></p>
+                                </div>
+                            </div>
+
+                            <div class="social-media-icons">
+                                <a href="https://web.facebook.com/profile.php?id=61557113816340" target="_blank"><i class='bx bxl-facebook' ></i></a>
+                                <a href="https://twitter.com/chrisDev99" target="_blank"><i class='bx bxl-twitter' ></i></a>
+                                <a href="https://www.linkedin.com/in/christian-okafor-6176ab228?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3Bv%2B5Vg93SRcGyDjYguIoXwg%3D%3D" target="_blank"><i class='bx bxl-linkedin' ></i></a>
+                                <a href="https://github.com/chris321-dev" target="_blank"><i class='bx bxl-github' ></i></a>
+                            </div>
+                        </div>
+            
+                    </div>
+
+            </section>
+
+            <!-- FOOTER -->
+            <div class="footer">
+                <p>Copyright © 2024 by <span><a href="#home">Chris Dev</a></span> | All Rights Reserved.</p>
+            </div>
+
+        </main>
+
+        <a href="#"  class="align-items-center justify-content-center" onclick="topFunction()" id="backToTopBtn" title="Go to top"><i class='bx bx-up-arrow-alt' ></i></a>
+        
+
+        <!--=============== MAIN JS ===============-->
+        <script src="assets/js/main.js"></script>
+
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+          AOS.init();
+        </script>
+
+        <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+        </script>
+        <script type="text/javascript">
+        (function(){
+            emailjs.init({
+                publicKey: "XPO5tovWYNNjLFajt",
+            });
+        })();
+        </script>
+
+        <script>
+            window.addEventListener("load", function() {
+            var preloader = document.getElementById("preloader");
+            preloader.style.display = "none";
+            });
+        </script>
+  
+    </body>
+</html>
