@@ -819,7 +819,6 @@ input:-webkit-autofill:active {
 }
 
 #backToTopBtn {
-  display: none;
   position: fixed;
   bottom: 18px;
   right: 20px;
@@ -831,13 +830,15 @@ input:-webkit-autofill:active {
   border-radius: 50px;
   width: 35px;
   height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #backToTopBtn i {
   font-weight: bold;
   font-size: 28px;
   color: var(--normal-fs);
-  padding: 2px;
 }
 
 #backToTopBtn:hover {
@@ -927,7 +928,6 @@ input:-webkit-autofill:active {
   } 
   #backToTopBtn i{
     font-size: 22px;
-    padding: 1px;
   }
 }
 
